@@ -1,0 +1,12 @@
+[package]
+name = "garden_keeper_game"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+window = {path = "./window"}
+globals = {path = "./globals"}
+garden_keeper_configuration = {path = "./garden_keeper_configuration"}
+garden_keeper_types = {path = "./garden_keeper_types"}

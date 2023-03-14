@@ -1,0 +1,12 @@
+[package]
+name = "globals"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+window = {path="../window"}
+garden_keeper_types = {path="../garden_keeper_types"}
+concat-arrays = "0.1.2"
+engine_extension_types = {path="../engine_extension/engine_extension_types"}
